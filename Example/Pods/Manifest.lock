@@ -1,0 +1,16 @@
+PODS:
+  - SFExtension (0.1.0)
+
+DEPENDENCIES:
+  - SFExtension (from `../`)
+
+EXTERNAL SOURCES:
+  SFExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SFExtension: 1f152a3493f2c284ce8b153f79692b2d6aafc955
+
+PODFILE CHECKSUM: a4b452dfe860560349447aa96efd0bbb934d15f9
+
+COCOAPODS: 1.2.1

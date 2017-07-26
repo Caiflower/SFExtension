@@ -22,7 +22,7 @@ pod "SFExtension"
 
 ## Author
 
-chriscaixx, longjuncai@meifabao.cn
+Caiflower, caiflower20@163.com
 
 ## License
 
