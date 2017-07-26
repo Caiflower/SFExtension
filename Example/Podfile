@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SFExtension_Example' do
+  pod 'SFExtension', :path => '../'
+
+  target 'SFExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
