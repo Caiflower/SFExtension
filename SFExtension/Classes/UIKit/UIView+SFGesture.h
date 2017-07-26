@@ -16,12 +16,12 @@
  *
  *  @param block 单击手势执行的block
  */
-- (void)cf_setTapActionWithBlock:(SFCommonBlock)block;
+- (void)sf_setTapActionWithBlock:(SFCommonBlock)block;
 
 /**
  *  给view添加长按手势
  *
  *  @param block 长按手势执行的block
  */
-- (void)cf_setLongPressActionWithBlock:(SFCommonBlock)block;
+- (void)sf_setLongPressActionWithBlock:(SFCommonBlock)block;
 @end
