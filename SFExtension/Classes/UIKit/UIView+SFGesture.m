@@ -11,7 +11,7 @@
 static char kSFActionHandlerTapBlockKey;
 static char kSFActionHandlerLongPressBlockKey;
 @implementation UIView (SFGesture)
-- (void)cf_setTapActionWithBlock:(SFCommonBlock)block
+- (void)sf_setTapActionWithBlock:(SFCommonBlock)block
 {
     // 开启用户交互
     self.userInteractionEnabled = YES;
@@ -37,7 +37,7 @@ static char kSFActionHandlerLongPressBlockKey;
     }
 }
 
-- (void)cf_setLongPressActionWithBlock:(SFCommonBlock)block
+- (void)sf_setLongPressActionWithBlock:(SFCommonBlock)block
 {
     // 创建手势
     UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc]initWithTarget:self action:@selector(_LongPressAction:)];
