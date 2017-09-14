@@ -1,5 +1,5 @@
 PODS:
-  - SFExtension (0.1.2)
+  - SFExtension (0.1.3)
 
 DEPENDENCIES:
   - SFExtension (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SFExtension: 8d2f3be2f18858a621eada9165797f04ff7a8c7a
+  SFExtension: 2e56c0252374930b25874ff367f56d0b7b01610b
 
 PODFILE CHECKSUM: a4b452dfe860560349447aa96efd0bbb934d15f9
 

@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+// 颜色
+#define SFRGBColor(r, g, b)     [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define SFRGBAColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(r)/255.0 blue:(r)/255.0 alpha:a]
+#define SFRandomColor  SFRGBColor(arc4random_uniform(256)/255.0,arc4random_uniform(256)/255.0,arc4random_uniform(256)/255.0)
+#define SFWhiteColor [UIColor whiteColor]
+#define SFBlackColor [UIColor blackColor]
+#define SFRedColor [UIColor redColor]
+#define SFClearColor [UIColor clearColor]
+// 十六进制颜色
+#define SFHexColor(color) [UIColor sf_colorFromHex:color]
+#define SFHexColorWithAlpha(color,a) [UIColor sf_colorFromHex:(color) alpha:(a)]
+
 @interface UIColor (SFExtension)
 /**
  *  十六进制转颜色
