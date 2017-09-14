@@ -17,6 +17,7 @@
 #import "NSDictionary+SFExtension.h"
 #import "NSObject+SFExtension.h"
 #import "NSString+SFExtension.h"
+#import "NSTimer+SFExtension.h"
 #import "UIColor+SFExtension.h"
 #import "UIImageView+SFExtension.h"
 #import "UIResponder+SFExtension.h"

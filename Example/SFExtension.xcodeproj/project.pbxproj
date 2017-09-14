@@ -24,6 +24,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B8002B011F6AAD7500720C53 /* UIActionSheet+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B8002B001F6AAD7500720C53 /* UIActionSheet+SFExtension.m */; };
+		B8002B041F6AB5C200720C53 /* UIAlertView+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B8002B031F6AB5C200720C53 /* UIAlertView+SFExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,10 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97AFA153E65094F3CDAE3DA3 /* Pods_SFExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SFExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5D2E93AF3619569965F33E /* Pods_SFExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SFExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8002AFF1F6AAD7500720C53 /* UIActionSheet+SFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+SFExtension.h"; sourceTree = "<group>"; };
+		B8002B001F6AAD7500720C53 /* UIActionSheet+SFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+SFExtension.m"; sourceTree = "<group>"; };
+		B8002B021F6AB5C200720C53 /* UIAlertView+SFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+SFExtension.h"; sourceTree = "<group>"; };
+		B8002B031F6AB5C200720C53 /* UIAlertView+SFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+SFExtension.m"; sourceTree = "<group>"; };
 		BC762C34E33AC54EA7DB014C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C8267CAD9AF6810EA8A2DBD6 /* Pods-SFExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFExtension_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SFExtension_Example/Pods-SFExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E0130DFAE7BC171D19318776 /* Pods-SFExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFExtension_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SFExtension_Tests/Pods-SFExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +143,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* SFViewController.h */,
 				6003F5A6195388D20070C39A /* SFViewController.m */,
+				B8002AFF1F6AAD7500720C53 /* UIActionSheet+SFExtension.h */,
+				B8002B001F6AAD7500720C53 /* UIActionSheet+SFExtension.m */,
+				B8002B021F6AB5C200720C53 /* UIAlertView+SFExtension.h */,
+				B8002B031F6AB5C200720C53 /* UIAlertView+SFExtension.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -394,9 +404,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8002B011F6AAD7500720C53 /* UIActionSheet+SFExtension.m in Sources */,
 				6003F59E195388D20070C39A /* SFAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* SFViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				B8002B041F6AB5C200720C53 /* UIAlertView+SFExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

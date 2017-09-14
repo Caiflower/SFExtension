@@ -109,7 +109,7 @@ static const char * SFObjectsDictionary = "SFObjectsDictionary";
     return [[self shared_ObjectDictionary] objectForKey:key];
 }
 
-- (void)sf_setAssociatedObject:(id)object key:(NSString *)key
+- (void)sf_setAssociatedObject:(nullable id)object key:(NSString *)key
 {
     if (object == nil)
     {

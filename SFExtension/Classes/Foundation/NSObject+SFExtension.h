@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+NS_ASSUME_NONNULL_BEGIN
 @interface NSObject (SFExtension)
 
 /**
@@ -32,7 +32,8 @@
 
 - (id)sf_associatedObjectWithKey:(NSString *)key;
 
-- (void)sf_setAssociatedObject:(id)object key:(NSString *)key;
+- (void)sf_setAssociatedObject:(nullable id)object key:(NSString *)key;
 
 - (void)sf_removeAssociatedObjectWithKey:(NSString *)key;
 @end
+NS_ASSUME_NONNULL_END
