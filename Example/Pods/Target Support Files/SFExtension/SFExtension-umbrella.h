@@ -18,6 +18,8 @@
 #import "NSObject+SFExtension.h"
 #import "NSString+SFExtension.h"
 #import "NSTimer+SFExtension.h"
+#import "UIActionSheet+SFExtension.h"
+#import "UIAlertView+SFExtension.h"
 #import "UIColor+SFExtension.h"
 #import "UIImageView+SFExtension.h"
 #import "UIResponder+SFExtension.h"

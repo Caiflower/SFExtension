@@ -7,46 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02F38C01869CAFDAB3481FA5C0957B2E /* SFConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C83464D4F0722339340071F92768DA /* SFConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		049A26334BA6C58520C4134C46FC600F /* UIView+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ABC751BF80DB066E85A193239153C0 /* UIView+SFExtension.m */; };
-		081C46BEEE17B52F1C60A993D2D18D15 /* NSTimer+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 62258DBDC377B751E83AB00994AE72AA /* NSTimer+SFExtension.m */; };
-		1ADC8B85A6A35D033046F76FDF5F7345 /* UIView+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E3EA752C1642AA594BB85B4A22E85E0 /* UIView+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24C935AF0EA040762FC924FA12C4BB6D /* UIColor+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 5642F85322C7FE22E9E9D1611C55C14F /* UIColor+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0037C2AAFE1E25E18FCBF48F11F64748 /* UITextField+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 80A723EFA5E1427EB08B5E45D7508B25 /* UITextField+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08B0F2CFB27FE33B9D9958C432C3975A /* UIResponder+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65F9A2EA346ACFC1268A09D1CE8DAA /* UIResponder+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE3B04541106540ED9114D47A0D04A6 /* UIWebView+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BD571C5CE27766C230EDE9744AF7499D /* UIWebView+SFExtension.m */; };
+		14E64C382815EA17F0F2C21D91B5ACFC /* NSObject+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 786AA69417DE4223FF0041B874007D07 /* NSObject+SFExtension.m */; };
+		1B5CFCCCC20D62AC527B9B2B064B1855 /* UIWebView+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = AF0C28301B104167B3CB93289BD0FAD4 /* UIWebView+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21BDE2D9D65B0FE297B712685424F797 /* SFExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D923D60E2F7F1BC4BB32700C7C62DE7 /* SFExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22811CF44EE1E29B10A2A329E5B4727D /* NSArray+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E93B81693D91988695164102B21DE71E /* NSArray+SFExtension.m */; };
 		276135E98E213373BCFE7AC731040FE7 /* Pods-SFExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2118E8D04E79A3A3B9A3236F19EFE090 /* Pods-SFExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A0A161B5E1BCCD78A49BD4E10B6998E /* SFCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 42B85F0FC97AA51A7B0AA6A5D2E5EC1E /* SFCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B678A08FA8FD7C19A217362A4B66B19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		33461B9E2603EFF47D66CBDBCC47C3DE /* Pods-SFExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEB45632F35016DAD2AC1B711AB1A5C /* Pods-SFExtension_Tests-dummy.m */; };
 		338BC51A6C988251428C73399A9515FC /* Pods-SFExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01405E360CC66689D6CFB677E4D731A9 /* Pods-SFExtension_Example-dummy.m */; };
-		357E8BB588FA8D684B7AE2B267553896 /* UIImageView+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 77512986839FFA32EF38050B2EAFA426 /* UIImageView+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EED865985020199F20CFD1B320D3DD1 /* NSDictionary+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E094E22EF62DD75C85497B2E452513D5 /* NSDictionary+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		451679FB191F75798C263DB0EC9DD700 /* UIView+SFGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A16E1F994D16FCEB26E8B67C82A9D50 /* UIView+SFGesture.m */; };
-		45183C4A88189F5C7C38BE33E7575F32 /* SFConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6ACA9238C0BBDDC6DF0DC66EBB1DE3 /* SFConstants.m */; };
-		45F37A3B7A6FE8462117129E61C40316 /* SFCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EAD23F490C7392B74DA95E0357407E /* SFCommon.m */; };
+		3502D7F92147FC4335E259154A8A549D /* UIView+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 61CD96D664840C21FF50DFF451C25D22 /* UIView+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EDFB9D1A8DDA1E4E504F69DAF9A5C09 /* NSTimer+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A55D1DEF4DA76AEB206FBBBE79A4F51 /* NSTimer+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F4C876E6636C6A95015DA10AB108A18 /* NSDictionary+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C82A079E367FE4D4004809C8C1A1CB /* NSDictionary+SFExtension.m */; };
+		3FDB4B0E9B1024972E60A716BDE395DC /* NSTimer+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A984451DCE32F148C98F2BE4E588EF /* NSTimer+SFExtension.m */; };
+		40A978E545ECD0883A807C7BAB953667 /* UIAlertView+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C33EAF12604AA858980B9CC14C5467BD /* UIAlertView+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		456DA47A738ED6FC363F44E2C84EF574 /* UIView+SFFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A8939684759262209E3C8E6A40569AF /* UIView+SFFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		473F74A607A0088139D0FBA9D8A2E080 /* NSString+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 103307483EC3E6C28981B3813BCF66D3 /* NSString+SFExtension.m */; };
 		4A09C9B72825D3032671E63692CCFE07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4FBD4951C5F1CDC3CC39E0EFB4A78193 /* SFExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D923D60E2F7F1BC4BB32700C7C62DE7 /* SFExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		524A284B55255641F01C197BF9708FB8 /* UIImageView+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 083D1CFE17B4C7429AC5F7097EB96FC4 /* UIImageView+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53EDAB01E6FDBBBC649622BC0F174308 /* SFConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 85173326A1F33644E7248B3F22DE466C /* SFConstants.m */; };
+		560A396D3715919D7D9B4F6C112EB38F /* UIActionSheet+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A31E8F72D2C9587A0F19AF42CBB8AAC /* UIActionSheet+SFExtension.m */; };
 		5800DC2ADEC89EA36542E87A88395A03 /* Pods-SFExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FE3BEB11856DEA11115690C839A7A6C /* Pods-SFExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		594D64E36F98E85B97CF8CF2ADC13D9D /* NSString+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A0A0C0DD023B7DFAF4C89E20CD3FFD1E /* NSString+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		587B768BD34F13936F0C9010294ED43A /* SFMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E66269631628D364F26DA80CBBA7A29 /* SFMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A0A77571A242FD5F50AC301777FE720 /* UIColor+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6021C7DEA02A2EF77A2CFF3806BA20 /* UIColor+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6113CDECD04F50CD1672DA66A3F2742A /* UIActionSheet+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0F2B5F251FEC2EACA281E5E145BCD4 /* UIActionSheet+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62DD8D2762DB214E863B130CE5D92C7E /* SFCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AD158BA5EBA68FD3B7E58CF5F5F56A /* SFCommon.m */; };
 		7052A110CE3DFE921D366421C4459358 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		734BB211E374EAEC337325CAD7CA9B62 /* UIView+SFFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 2138693594DD4C09449E9ECE691A1ECF /* UIView+SFFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F943FEA7567F6082CA15D552DA682C4 /* NSDictionary+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD8CF0C9EFBEAF84CF18250FCE1BC3 /* NSDictionary+SFExtension.m */; };
-		889127EDA26C3166C2647CA71390BE69 /* UIView+SFFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD7F89E89CA39C45D7437DBC7861877 /* UIView+SFFrame.m */; };
-		8CCAA2391BE4DDD8B1FF2F3E9B77E3D9 /* UIWebView+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 94AE8070D069D44EAF09C6C7906DB053 /* UIWebView+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B422E6A5DF667CFC6A4609EDB22DE8D /* NSString+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FFDF84E9B1DAB52212D0D622439CCC /* NSString+SFExtension.m */; };
-		A38A3BEA637A95F13DBF52BF295EEB08 /* UIColor+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAB5BEC1F60C2343E2936376145AB29 /* UIColor+SFExtension.m */; };
-		B1DFCFB8369A6D42DC0C4C2ED1C3CD1F /* NSArray+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AA83B7E40E8249994A8B3441B5F9DF1 /* NSArray+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B43BC6DF13C624C55B2942F8B5A821D4 /* UIResponder+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA2957B5A3EDE2FE666D9D7501497F0 /* UIResponder+SFExtension.m */; };
-		B80D5C1D8BCC2F5C8D9B070470CF4838 /* UITextField+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F4B60BAA75EE2B87CA9A0729EC7709D /* UITextField+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1CC0586DF07D8C0CE9D5FCB4C831998 /* SFExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B37CC7AB9522280EA6A54AA43B0D68 /* SFExtension-dummy.m */; };
-		D018E5F8541E5B9CB2C1B14F3CA84DA5 /* UITextField+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7759FF6A9E1C6244A9784FDC21D31650 /* UITextField+SFExtension.m */; };
-		D4EF8B75BC2350DB599BDAAE3BF93567 /* NSTimer+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FFE8302FF238BDB83EE885D7D10688B /* NSTimer+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D82F63E38E9492AA6D0BED5A74E480FB /* NSObject+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 348D1B48D94EE2F3395CECB770619E47 /* NSObject+SFExtension.m */; };
-		D8FDF18EC0090F0C31A25E48DEE0B96A /* UIWebView+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D047846C1DBC4F29CB88F96CA9E7DFAD /* UIWebView+SFExtension.m */; };
-		DBCFF2AD03A3D15514268FEFC1CE80F4 /* SFMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 12C6E3DABE3BE462E7398A695C456E12 /* SFMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDC30D1BF8CCCB3D2E300F4E68A95E10 /* UIView+SFGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D5BB67230C92FE3F6E262584226096 /* UIView+SFGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF8FDE7EB645348C24A9F6BAEDAA6924 /* NSArray+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E02B59D39988007D855EE2FA978422D1 /* NSArray+SFExtension.m */; };
-		E12CD4E872C7F896BC62F9AEABEFFBF3 /* UIResponder+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = BF32CA0E1AEFFB37BACB11817230BDA0 /* UIResponder+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEE5AB1C26FB4F54EC9DF074870FDFE1 /* UIImageView+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE117AA6B0FF4C4FD5131F9AA99E0FF6 /* UIImageView+SFExtension.m */; };
-		F23DBA4318DB570EB52AC7D2ED373C2E /* NSObject+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 055E93660DF471E7EEC7BED62910D4B7 /* NSObject+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		762449E3A1DB3F706589C06F0CFB8BCA /* NSDictionary+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC22BDF46A0B6D819EB437C0E037355 /* NSDictionary+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BA5E559D6009B741B232D5E32BE266E /* NSObject+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = D36F83DFBCC4622A3FA5A7F6CAA033F6 /* NSObject+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82D59BF32BC8177E93DA756DD49CEBD5 /* UIResponder+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 29638C23D595B453CF3FA1C42E252783 /* UIResponder+SFExtension.m */; };
+		98808138B760C1DFFDACB3A3859ED5AC /* SFExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B37CC7AB9522280EA6A54AA43B0D68 /* SFExtension-dummy.m */; };
+		9BB64457474A019F0AA59A4A86E13B6B /* UIView+SFGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = E9627EE87707DE45897621AD6F343143 /* UIView+SFGesture.m */; };
+		A30308B132F2F91F300F9353F5AD26E2 /* UIView+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD7ED108F28D7FA37F99C24AFA961B9 /* UIView+SFExtension.m */; };
+		BBC2C3A6B8CC3DFDDA466156063718B9 /* UIImageView+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3995956158F09C629B293CE4BC30DD /* UIImageView+SFExtension.m */; };
+		C600A9C8E55862117A51166FFBBC2E43 /* UIView+SFFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBD17425F6296D41EA5340CB59A7052 /* UIView+SFFrame.m */; };
+		C63337E707F9E7E535E7CBC4D28E54B9 /* UIColor+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 871E7FF2BF1F335B7179048CDAA04640 /* UIColor+SFExtension.m */; };
+		C6728D576C6FA301FABB3B94F4EC6920 /* UIView+SFGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 3272B80E7335ABADF701DD155E4A1808 /* UIView+SFGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3E59337CCC3814C596416D6A216E41F /* UITextField+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5699844CF13915E383ACDCED19FC3DC3 /* UITextField+SFExtension.m */; };
+		DB11441789BA946F3B692E94ECBDBB2D /* UIAlertView+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 483D7B782C161623D43B7F98B9D76D6A /* UIAlertView+SFExtension.m */; };
+		EC47FA094DC6DE23A7E3A69113AD5F5B /* NSString+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 82F6B987D9451DECBD871C587B01D9AC /* NSString+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED9876084AFE58BBD211B53EB74EF0D7 /* SFConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B973C3C60C0BE19FAF39EA16903DA02 /* SFConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F059CC88C1E8DE2251548E45C0BFEDC0 /* NSArray+SFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 31917EA4CE2049CDE560B48F517D8ED1 /* NSArray+SFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9E7AFF4F7982E265B182D3C8043D7B5 /* SFCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = CC201C82F80FA062FB77FDAAD902DF78 /* SFCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,67 +65,71 @@
 
 /* Begin PBXFileReference section */
 		01405E360CC66689D6CFB677E4D731A9 /* Pods-SFExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SFExtension_Example-dummy.m"; sourceTree = "<group>"; };
-		055E93660DF471E7EEC7BED62910D4B7 /* NSObject+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+SFExtension.h"; sourceTree = "<group>"; };
+		083D1CFE17B4C7429AC5F7097EB96FC4 /* UIImageView+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SFExtension.h"; sourceTree = "<group>"; };
 		0CF4B26A842333C12AB5608772396ECB /* Pods-SFExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0FC945BFEC03F4333E6BE7FAD15D76D1 /* Pods-SFExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SFExtension_Tests.modulemap"; sourceTree = "<group>"; };
+		103307483EC3E6C28981B3813BCF66D3 /* NSString+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+SFExtension.m"; sourceTree = "<group>"; };
 		124F5398B74CF49C14C0F7819D1B2338 /* SFExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFExtension-prefix.pch"; sourceTree = "<group>"; };
-		12C6E3DABE3BE462E7398A695C456E12 /* SFMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFMacro.h; sourceTree = "<group>"; };
 		13D1B96CF0D2D04E340876CAC94ABE3C /* Pods-SFExtension_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SFExtension_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1AA83B7E40E8249994A8B3441B5F9DF1 /* NSArray+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+SFExtension.h"; sourceTree = "<group>"; };
-		1EAB5BEC1F60C2343E2936376145AB29 /* UIColor+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SFExtension.m"; sourceTree = "<group>"; };
 		2118E8D04E79A3A3B9A3236F19EFE090 /* Pods-SFExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SFExtension_Example-umbrella.h"; sourceTree = "<group>"; };
-		2138693594DD4C09449E9ECE691A1ECF /* UIView+SFFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+SFFrame.h"; sourceTree = "<group>"; };
 		22B0F7FC46376A88DE0169C866E045E9 /* Pods-SFExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
+		29638C23D595B453CF3FA1C42E252783 /* UIResponder+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+SFExtension.m"; sourceTree = "<group>"; };
 		2BEB45632F35016DAD2AC1B711AB1A5C /* Pods-SFExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SFExtension_Tests-dummy.m"; sourceTree = "<group>"; };
-		348D1B48D94EE2F3395CECB770619E47 /* NSObject+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SFExtension.m"; sourceTree = "<group>"; };
+		31917EA4CE2049CDE560B48F517D8ED1 /* NSArray+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+SFExtension.h"; sourceTree = "<group>"; };
+		3272B80E7335ABADF701DD155E4A1808 /* UIView+SFGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+SFGesture.h"; sourceTree = "<group>"; };
 		36C9F8B02C3D03BF415B747410E16A52 /* Pods_SFExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SFExtension_Example.framework; path = "Pods-SFExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		385D909EAAFA94C3D5A298291AA2AB60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42B85F0FC97AA51A7B0AA6A5D2E5EC1E /* SFCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFCommon.h; sourceTree = "<group>"; };
-		4A16E1F994D16FCEB26E8B67C82A9D50 /* UIView+SFGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+SFGesture.m"; sourceTree = "<group>"; };
+		3D6021C7DEA02A2EF77A2CFF3806BA20 /* UIColor+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+SFExtension.h"; sourceTree = "<group>"; };
+		3E66269631628D364F26DA80CBBA7A29 /* SFMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFMacro.h; sourceTree = "<group>"; };
+		40C82A079E367FE4D4004809C8C1A1CB /* NSDictionary+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SFExtension.m"; sourceTree = "<group>"; };
+		483D7B782C161623D43B7F98B9D76D6A /* UIAlertView+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+SFExtension.m"; sourceTree = "<group>"; };
 		4D923D60E2F7F1BC4BB32700C7C62DE7 /* SFExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFExtension-umbrella.h"; sourceTree = "<group>"; };
+		4E65F9A2EA346ACFC1268A09D1CE8DAA /* UIResponder+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIResponder+SFExtension.h"; sourceTree = "<group>"; };
+		4EBD17425F6296D41EA5340CB59A7052 /* UIView+SFFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+SFFrame.m"; sourceTree = "<group>"; };
 		5273A1FBFFB72F6C1E352F1F3272BF8A /* Pods-SFExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		529418BDBAA4C6C41C87B34A92D3EBDC /* Pods-SFExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5642F85322C7FE22E9E9D1611C55C14F /* UIColor+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+SFExtension.h"; sourceTree = "<group>"; };
-		5E3EA752C1642AA594BB85B4A22E85E0 /* UIView+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+SFExtension.h"; sourceTree = "<group>"; };
+		5699844CF13915E383ACDCED19FC3DC3 /* UITextField+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SFExtension.m"; sourceTree = "<group>"; };
+		5C0F2B5F251FEC2EACA281E5E145BCD4 /* UIActionSheet+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+SFExtension.h"; sourceTree = "<group>"; };
+		5DC22BDF46A0B6D819EB437C0E037355 /* NSDictionary+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SFExtension.h"; sourceTree = "<group>"; };
 		60930CE5B3D382D23E6A7C5772B1DD8A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62258DBDC377B751E83AB00994AE72AA /* NSTimer+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+SFExtension.m"; sourceTree = "<group>"; };
+		61CD96D664840C21FF50DFF451C25D22 /* UIView+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+SFExtension.h"; sourceTree = "<group>"; };
 		62DD18AB1CE437A938A66CE84805B93F /* Pods_SFExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SFExtension_Tests.framework; path = "Pods-SFExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65EAD23F490C7392B74DA95E0357407E /* SFCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SFCommon.m; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6FFE8302FF238BDB83EE885D7D10688B /* NSTimer+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSTimer+SFExtension.h"; sourceTree = "<group>"; };
-		77512986839FFA32EF38050B2EAFA426 /* UIImageView+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SFExtension.h"; sourceTree = "<group>"; };
-		7759FF6A9E1C6244A9784FDC21D31650 /* UITextField+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SFExtension.m"; sourceTree = "<group>"; };
-		78ABC751BF80DB066E85A193239153C0 /* UIView+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+SFExtension.m"; sourceTree = "<group>"; };
-		7F4B60BAA75EE2B87CA9A0729EC7709D /* UITextField+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+SFExtension.h"; sourceTree = "<group>"; };
+		6A31E8F72D2C9587A0F19AF42CBB8AAC /* UIActionSheet+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+SFExtension.m"; sourceTree = "<group>"; };
+		6B973C3C60C0BE19FAF39EA16903DA02 /* SFConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFConstants.h; sourceTree = "<group>"; };
+		786AA69417DE4223FF0041B874007D07 /* NSObject+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SFExtension.m"; sourceTree = "<group>"; };
+		7A55D1DEF4DA76AEB206FBBBE79A4F51 /* NSTimer+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSTimer+SFExtension.h"; sourceTree = "<group>"; };
+		7A8939684759262209E3C8E6A40569AF /* UIView+SFFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+SFFrame.h"; sourceTree = "<group>"; };
 		7FE3BEB11856DEA11115690C839A7A6C /* Pods-SFExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SFExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
 		807E045EF6C84D6EED400F0E7E5B6A35 /* SFExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFExtension.xcconfig; sourceTree = "<group>"; };
+		80A723EFA5E1427EB08B5E45D7508B25 /* UITextField+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+SFExtension.h"; sourceTree = "<group>"; };
+		82F6B987D9451DECBD871C587B01D9AC /* NSString+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+SFExtension.h"; sourceTree = "<group>"; };
+		85173326A1F33644E7248B3F22DE466C /* SFConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SFConstants.m; sourceTree = "<group>"; };
+		871E7FF2BF1F335B7179048CDAA04640 /* UIColor+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SFExtension.m"; sourceTree = "<group>"; };
 		88B37CC7AB9522280EA6A54AA43B0D68 /* SFExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SFExtension-dummy.m"; sourceTree = "<group>"; };
-		89C83464D4F0722339340071F92768DA /* SFConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFConstants.h; sourceTree = "<group>"; };
 		8C8B815DDA90B3512EE598830C18BE67 /* Pods-SFExtension_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFExtension_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8F8D5AAF7AC93F53FA0062DBF8D8ED73 /* Pods-SFExtension_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFExtension_Tests-resources.sh"; sourceTree = "<group>"; };
 		907F3FEEADAEB1B80EF0DEC070500E7D /* Pods-SFExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		912F86D444DF9D591C2A43BCA8C0ED20 /* Pods-SFExtension_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFExtension_Example-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94AE8070D069D44EAF09C6C7906DB053 /* UIWebView+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWebView+SFExtension.h"; sourceTree = "<group>"; };
-		9A6ACA9238C0BBDDC6DF0DC66EBB1DE3 /* SFConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SFConstants.m; sourceTree = "<group>"; };
-		A0A0C0DD023B7DFAF4C89E20CD3FFD1E /* NSString+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+SFExtension.h"; sourceTree = "<group>"; };
-		A3D5BB67230C92FE3F6E262584226096 /* UIView+SFGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+SFGesture.h"; sourceTree = "<group>"; };
-		ABD7F89E89CA39C45D7437DBC7861877 /* UIView+SFFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+SFFrame.m"; sourceTree = "<group>"; };
+		A3A984451DCE32F148C98F2BE4E588EF /* NSTimer+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+SFExtension.m"; sourceTree = "<group>"; };
 		AD65B9055F6364684F136575A5FAC387 /* Pods-SFExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AE117AA6B0FF4C4FD5131F9AA99E0FF6 /* UIImageView+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SFExtension.m"; sourceTree = "<group>"; };
-		B0FD8CF0C9EFBEAF84CF18250FCE1BC3 /* NSDictionary+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SFExtension.m"; sourceTree = "<group>"; };
+		AF0C28301B104167B3CB93289BD0FAD4 /* UIWebView+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWebView+SFExtension.h"; sourceTree = "<group>"; };
 		B2FAA3DBCACF2C069124464A24DDF72E /* Pods-SFExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B3FFDF84E9B1DAB52212D0D622439CCC /* NSString+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+SFExtension.m"; sourceTree = "<group>"; };
-		BF32CA0E1AEFFB37BACB11817230BDA0 /* UIResponder+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIResponder+SFExtension.h"; sourceTree = "<group>"; };
+		BD571C5CE27766C230EDE9744AF7499D /* UIWebView+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+SFExtension.m"; sourceTree = "<group>"; };
+		C33EAF12604AA858980B9CC14C5467BD /* UIAlertView+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+SFExtension.h"; sourceTree = "<group>"; };
 		C5515084CF8EFB78C7E577403C99298A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6EAE0D1C00FCAF769D729DDFA3C3866 /* Pods-SFExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SFExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CADF664A3BC52DAF1FB1F500441AD5C1 /* SFExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SFExtension.framework; path = SFExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3F1B667C6C78B6BA2052186E7909D4 /* SFExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SFExtension.modulemap; sourceTree = "<group>"; };
-		D047846C1DBC4F29CB88F96CA9E7DFAD /* UIWebView+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+SFExtension.m"; sourceTree = "<group>"; };
-		DFA2957B5A3EDE2FE666D9D7501497F0 /* UIResponder+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+SFExtension.m"; sourceTree = "<group>"; };
-		E02B59D39988007D855EE2FA978422D1 /* NSArray+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SFExtension.m"; sourceTree = "<group>"; };
-		E094E22EF62DD75C85497B2E452513D5 /* NSDictionary+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SFExtension.h"; sourceTree = "<group>"; };
+		CC201C82F80FA062FB77FDAAD902DF78 /* SFCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFCommon.h; sourceTree = "<group>"; };
+		D36F83DFBCC4622A3FA5A7F6CAA033F6 /* NSObject+SFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+SFExtension.h"; sourceTree = "<group>"; };
+		DF3995956158F09C629B293CE4BC30DD /* UIImageView+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SFExtension.m"; sourceTree = "<group>"; };
 		E30B478F6B1D6AD1A3ABD5A434819E64 /* Pods-SFExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SFExtension_Example.modulemap"; sourceTree = "<group>"; };
+		E93B81693D91988695164102B21DE71E /* NSArray+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SFExtension.m"; sourceTree = "<group>"; };
+		E9627EE87707DE45897621AD6F343143 /* UIView+SFGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+SFGesture.m"; sourceTree = "<group>"; };
+		E9AD158BA5EBA68FD3B7E58CF5F5F56A /* SFCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SFCommon.m; sourceTree = "<group>"; };
+		FBD7ED108F28D7FA37F99C24AFA961B9 /* UIView+SFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+SFExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,17 +206,15 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		4F8222CEA377332D9CD209883D50823A /* Common */ = {
+		65B93ABD677B92E21DB19E539AA5A357 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				42B85F0FC97AA51A7B0AA6A5D2E5EC1E /* SFCommon.h */,
-				65EAD23F490C7392B74DA95E0357407E /* SFCommon.m */,
-				89C83464D4F0722339340071F92768DA /* SFConstants.h */,
-				9A6ACA9238C0BBDDC6DF0DC66EBB1DE3 /* SFConstants.m */,
-				12C6E3DABE3BE462E7398A695C456E12 /* SFMacro.h */,
+				A42510C7C564F03C9AC9B3B5817DA205 /* Common */,
+				C84961556393E982D47F00686E039738 /* Foundation */,
+				F5186244D02737AEF1B42DD30DA29960 /* UIKit */,
 			);
-			name = Common;
-			path = Common;
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -225,28 +231,23 @@
 		8BBD3ABB13834B83541030C5D6DD7A6F /* SFExtension */ = {
 			isa = PBXGroup;
 			children = (
-				DA16F5AC66D464BED05A4F110EE41599 /* Classes */,
+				65B93ABD677B92E21DB19E539AA5A357 /* Classes */,
 			);
 			name = SFExtension;
 			path = SFExtension;
 			sourceTree = "<group>";
 		};
-		B2F55FFC082F2726A568CB92D5EBFF06 /* Foundation */ = {
+		A42510C7C564F03C9AC9B3B5817DA205 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				1AA83B7E40E8249994A8B3441B5F9DF1 /* NSArray+SFExtension.h */,
-				E02B59D39988007D855EE2FA978422D1 /* NSArray+SFExtension.m */,
-				E094E22EF62DD75C85497B2E452513D5 /* NSDictionary+SFExtension.h */,
-				B0FD8CF0C9EFBEAF84CF18250FCE1BC3 /* NSDictionary+SFExtension.m */,
-				055E93660DF471E7EEC7BED62910D4B7 /* NSObject+SFExtension.h */,
-				348D1B48D94EE2F3395CECB770619E47 /* NSObject+SFExtension.m */,
-				A0A0C0DD023B7DFAF4C89E20CD3FFD1E /* NSString+SFExtension.h */,
-				B3FFDF84E9B1DAB52212D0D622439CCC /* NSString+SFExtension.m */,
-				6FFE8302FF238BDB83EE885D7D10688B /* NSTimer+SFExtension.h */,
-				62258DBDC377B751E83AB00994AE72AA /* NSTimer+SFExtension.m */,
+				CC201C82F80FA062FB77FDAAD902DF78 /* SFCommon.h */,
+				E9AD158BA5EBA68FD3B7E58CF5F5F56A /* SFCommon.m */,
+				6B973C3C60C0BE19FAF39EA16903DA02 /* SFConstants.h */,
+				85173326A1F33644E7248B3F22DE466C /* SFConstants.m */,
+				3E66269631628D364F26DA80CBBA7A29 /* SFMacro.h */,
 			);
-			name = Foundation;
-			path = Foundation;
+			name = Common;
+			path = Common;
 			sourceTree = "<group>";
 		};
 		BAFB2E44112657BC08D12CD3D4400056 /* Pods-SFExtension_Example */ = {
@@ -275,23 +276,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C84961556393E982D47F00686E039738 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				31917EA4CE2049CDE560B48F517D8ED1 /* NSArray+SFExtension.h */,
+				E93B81693D91988695164102B21DE71E /* NSArray+SFExtension.m */,
+				5DC22BDF46A0B6D819EB437C0E037355 /* NSDictionary+SFExtension.h */,
+				40C82A079E367FE4D4004809C8C1A1CB /* NSDictionary+SFExtension.m */,
+				D36F83DFBCC4622A3FA5A7F6CAA033F6 /* NSObject+SFExtension.h */,
+				786AA69417DE4223FF0041B874007D07 /* NSObject+SFExtension.m */,
+				82F6B987D9451DECBD871C587B01D9AC /* NSString+SFExtension.h */,
+				103307483EC3E6C28981B3813BCF66D3 /* NSString+SFExtension.m */,
+				7A55D1DEF4DA76AEB206FBBBE79A4F51 /* NSTimer+SFExtension.h */,
+				A3A984451DCE32F148C98F2BE4E588EF /* NSTimer+SFExtension.m */,
+			);
+			name = Foundation;
+			path = Foundation;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		DA16F5AC66D464BED05A4F110EE41599 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				4F8222CEA377332D9CD209883D50823A /* Common */,
-				B2F55FFC082F2726A568CB92D5EBFF06 /* Foundation */,
-				DC9B6917FECECEF3AC870DFC7D1BAA85 /* UIKit */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		DC78E6BBCD0A711C29CF267F4F3892CA /* Targets Support Files */ = {
@@ -301,30 +309,6 @@
 				1197788C17B64DA25C5F04BFAA3FC19F /* Pods-SFExtension_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		DC9B6917FECECEF3AC870DFC7D1BAA85 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				5642F85322C7FE22E9E9D1611C55C14F /* UIColor+SFExtension.h */,
-				1EAB5BEC1F60C2343E2936376145AB29 /* UIColor+SFExtension.m */,
-				77512986839FFA32EF38050B2EAFA426 /* UIImageView+SFExtension.h */,
-				AE117AA6B0FF4C4FD5131F9AA99E0FF6 /* UIImageView+SFExtension.m */,
-				BF32CA0E1AEFFB37BACB11817230BDA0 /* UIResponder+SFExtension.h */,
-				DFA2957B5A3EDE2FE666D9D7501497F0 /* UIResponder+SFExtension.m */,
-				7F4B60BAA75EE2B87CA9A0729EC7709D /* UITextField+SFExtension.h */,
-				7759FF6A9E1C6244A9784FDC21D31650 /* UITextField+SFExtension.m */,
-				5E3EA752C1642AA594BB85B4A22E85E0 /* UIView+SFExtension.h */,
-				78ABC751BF80DB066E85A193239153C0 /* UIView+SFExtension.m */,
-				2138693594DD4C09449E9ECE691A1ECF /* UIView+SFFrame.h */,
-				ABD7F89E89CA39C45D7437DBC7861877 /* UIView+SFFrame.m */,
-				A3D5BB67230C92FE3F6E262584226096 /* UIView+SFGesture.h */,
-				4A16E1F994D16FCEB26E8B67C82A9D50 /* UIView+SFGesture.m */,
-				94AE8070D069D44EAF09C6C7906DB053 /* UIWebView+SFExtension.h */,
-				D047846C1DBC4F29CB88F96CA9E7DFAD /* UIWebView+SFExtension.m */,
-			);
-			name = UIKit;
-			path = UIKit;
 			sourceTree = "<group>";
 		};
 		DD40EF96EB620B45CB94F95D9E918CA6 /* Support Files */ = {
@@ -339,6 +323,34 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SFExtension";
+			sourceTree = "<group>";
+		};
+		F5186244D02737AEF1B42DD30DA29960 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5C0F2B5F251FEC2EACA281E5E145BCD4 /* UIActionSheet+SFExtension.h */,
+				6A31E8F72D2C9587A0F19AF42CBB8AAC /* UIActionSheet+SFExtension.m */,
+				C33EAF12604AA858980B9CC14C5467BD /* UIAlertView+SFExtension.h */,
+				483D7B782C161623D43B7F98B9D76D6A /* UIAlertView+SFExtension.m */,
+				3D6021C7DEA02A2EF77A2CFF3806BA20 /* UIColor+SFExtension.h */,
+				871E7FF2BF1F335B7179048CDAA04640 /* UIColor+SFExtension.m */,
+				083D1CFE17B4C7429AC5F7097EB96FC4 /* UIImageView+SFExtension.h */,
+				DF3995956158F09C629B293CE4BC30DD /* UIImageView+SFExtension.m */,
+				4E65F9A2EA346ACFC1268A09D1CE8DAA /* UIResponder+SFExtension.h */,
+				29638C23D595B453CF3FA1C42E252783 /* UIResponder+SFExtension.m */,
+				80A723EFA5E1427EB08B5E45D7508B25 /* UITextField+SFExtension.h */,
+				5699844CF13915E383ACDCED19FC3DC3 /* UITextField+SFExtension.m */,
+				61CD96D664840C21FF50DFF451C25D22 /* UIView+SFExtension.h */,
+				FBD7ED108F28D7FA37F99C24AFA961B9 /* UIView+SFExtension.m */,
+				7A8939684759262209E3C8E6A40569AF /* UIView+SFFrame.h */,
+				4EBD17425F6296D41EA5340CB59A7052 /* UIView+SFFrame.m */,
+				3272B80E7335ABADF701DD155E4A1808 /* UIView+SFGesture.h */,
+				E9627EE87707DE45897621AD6F343143 /* UIView+SFGesture.m */,
+				AF0C28301B104167B3CB93289BD0FAD4 /* UIWebView+SFExtension.h */,
+				BD571C5CE27766C230EDE9744AF7499D /* UIWebView+SFExtension.m */,
+			);
+			name = UIKit;
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,27 +372,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F18942876BB37AB0A94EA184A33A4411 /* Headers */ = {
+		7C1952CECFB722CB25225F96ED73FB4B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1DFCFB8369A6D42DC0C4C2ED1C3CD1F /* NSArray+SFExtension.h in Headers */,
-				3EED865985020199F20CFD1B320D3DD1 /* NSDictionary+SFExtension.h in Headers */,
-				F23DBA4318DB570EB52AC7D2ED373C2E /* NSObject+SFExtension.h in Headers */,
-				594D64E36F98E85B97CF8CF2ADC13D9D /* NSString+SFExtension.h in Headers */,
-				D4EF8B75BC2350DB599BDAAE3BF93567 /* NSTimer+SFExtension.h in Headers */,
-				2A0A161B5E1BCCD78A49BD4E10B6998E /* SFCommon.h in Headers */,
-				02F38C01869CAFDAB3481FA5C0957B2E /* SFConstants.h in Headers */,
-				4FBD4951C5F1CDC3CC39E0EFB4A78193 /* SFExtension-umbrella.h in Headers */,
-				DBCFF2AD03A3D15514268FEFC1CE80F4 /* SFMacro.h in Headers */,
-				24C935AF0EA040762FC924FA12C4BB6D /* UIColor+SFExtension.h in Headers */,
-				357E8BB588FA8D684B7AE2B267553896 /* UIImageView+SFExtension.h in Headers */,
-				E12CD4E872C7F896BC62F9AEABEFFBF3 /* UIResponder+SFExtension.h in Headers */,
-				B80D5C1D8BCC2F5C8D9B070470CF4838 /* UITextField+SFExtension.h in Headers */,
-				1ADC8B85A6A35D033046F76FDF5F7345 /* UIView+SFExtension.h in Headers */,
-				734BB211E374EAEC337325CAD7CA9B62 /* UIView+SFFrame.h in Headers */,
-				DDC30D1BF8CCCB3D2E300F4E68A95E10 /* UIView+SFGesture.h in Headers */,
-				8CCAA2391BE4DDD8B1FF2F3E9B77E3D9 /* UIWebView+SFExtension.h in Headers */,
+				F059CC88C1E8DE2251548E45C0BFEDC0 /* NSArray+SFExtension.h in Headers */,
+				762449E3A1DB3F706589C06F0CFB8BCA /* NSDictionary+SFExtension.h in Headers */,
+				7BA5E559D6009B741B232D5E32BE266E /* NSObject+SFExtension.h in Headers */,
+				EC47FA094DC6DE23A7E3A69113AD5F5B /* NSString+SFExtension.h in Headers */,
+				3EDFB9D1A8DDA1E4E504F69DAF9A5C09 /* NSTimer+SFExtension.h in Headers */,
+				F9E7AFF4F7982E265B182D3C8043D7B5 /* SFCommon.h in Headers */,
+				ED9876084AFE58BBD211B53EB74EF0D7 /* SFConstants.h in Headers */,
+				21BDE2D9D65B0FE297B712685424F797 /* SFExtension-umbrella.h in Headers */,
+				587B768BD34F13936F0C9010294ED43A /* SFMacro.h in Headers */,
+				6113CDECD04F50CD1672DA66A3F2742A /* UIActionSheet+SFExtension.h in Headers */,
+				40A978E545ECD0883A807C7BAB953667 /* UIAlertView+SFExtension.h in Headers */,
+				5A0A77571A242FD5F50AC301777FE720 /* UIColor+SFExtension.h in Headers */,
+				524A284B55255641F01C197BF9708FB8 /* UIImageView+SFExtension.h in Headers */,
+				08B0F2CFB27FE33B9D9958C432C3975A /* UIResponder+SFExtension.h in Headers */,
+				0037C2AAFE1E25E18FCBF48F11F64748 /* UITextField+SFExtension.h in Headers */,
+				3502D7F92147FC4335E259154A8A549D /* UIView+SFExtension.h in Headers */,
+				456DA47A738ED6FC363F44E2C84EF574 /* UIView+SFFrame.h in Headers */,
+				C6728D576C6FA301FABB3B94F4EC6920 /* UIView+SFGesture.h in Headers */,
+				1B5CFCCCC20D62AC527B9B2B064B1855 /* UIWebView+SFExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,9 +405,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BF065034E47957E552375F3C09004B9 /* Build configuration list for PBXNativeTarget "SFExtension" */;
 			buildPhases = (
-				E6F86B4CD63A8070A3F96BC3DC9D99CF /* Sources */,
+				F0D436F6D61AE73F51A393F76FD89593 /* Sources */,
 				1D9D05501C3D165897A0D7127844875E /* Frameworks */,
-				F18942876BB37AB0A94EA184A33A4411 /* Headers */,
+				7C1952CECFB722CB25225F96ED73FB4B /* Headers */,
 			);
 			buildRules = (
 			);
@@ -468,29 +482,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E6F86B4CD63A8070A3F96BC3DC9D99CF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF8FDE7EB645348C24A9F6BAEDAA6924 /* NSArray+SFExtension.m in Sources */,
-				7F943FEA7567F6082CA15D552DA682C4 /* NSDictionary+SFExtension.m in Sources */,
-				D82F63E38E9492AA6D0BED5A74E480FB /* NSObject+SFExtension.m in Sources */,
-				9B422E6A5DF667CFC6A4609EDB22DE8D /* NSString+SFExtension.m in Sources */,
-				081C46BEEE17B52F1C60A993D2D18D15 /* NSTimer+SFExtension.m in Sources */,
-				45F37A3B7A6FE8462117129E61C40316 /* SFCommon.m in Sources */,
-				45183C4A88189F5C7C38BE33E7575F32 /* SFConstants.m in Sources */,
-				C1CC0586DF07D8C0CE9D5FCB4C831998 /* SFExtension-dummy.m in Sources */,
-				A38A3BEA637A95F13DBF52BF295EEB08 /* UIColor+SFExtension.m in Sources */,
-				EEE5AB1C26FB4F54EC9DF074870FDFE1 /* UIImageView+SFExtension.m in Sources */,
-				B43BC6DF13C624C55B2942F8B5A821D4 /* UIResponder+SFExtension.m in Sources */,
-				D018E5F8541E5B9CB2C1B14F3CA84DA5 /* UITextField+SFExtension.m in Sources */,
-				049A26334BA6C58520C4134C46FC600F /* UIView+SFExtension.m in Sources */,
-				889127EDA26C3166C2647CA71390BE69 /* UIView+SFFrame.m in Sources */,
-				451679FB191F75798C263DB0EC9DD700 /* UIView+SFGesture.m in Sources */,
-				D8FDF18EC0090F0C31A25E48DEE0B96A /* UIWebView+SFExtension.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E92BA04405F0095007E71D71F75ED7B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -504,6 +495,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				338BC51A6C988251428C73399A9515FC /* Pods-SFExtension_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D436F6D61AE73F51A393F76FD89593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22811CF44EE1E29B10A2A329E5B4727D /* NSArray+SFExtension.m in Sources */,
+				3F4C876E6636C6A95015DA10AB108A18 /* NSDictionary+SFExtension.m in Sources */,
+				14E64C382815EA17F0F2C21D91B5ACFC /* NSObject+SFExtension.m in Sources */,
+				473F74A607A0088139D0FBA9D8A2E080 /* NSString+SFExtension.m in Sources */,
+				3FDB4B0E9B1024972E60A716BDE395DC /* NSTimer+SFExtension.m in Sources */,
+				62DD8D2762DB214E863B130CE5D92C7E /* SFCommon.m in Sources */,
+				53EDAB01E6FDBBBC649622BC0F174308 /* SFConstants.m in Sources */,
+				98808138B760C1DFFDACB3A3859ED5AC /* SFExtension-dummy.m in Sources */,
+				560A396D3715919D7D9B4F6C112EB38F /* UIActionSheet+SFExtension.m in Sources */,
+				DB11441789BA946F3B692E94ECBDBB2D /* UIAlertView+SFExtension.m in Sources */,
+				C63337E707F9E7E535E7CBC4D28E54B9 /* UIColor+SFExtension.m in Sources */,
+				BBC2C3A6B8CC3DFDDA466156063718B9 /* UIImageView+SFExtension.m in Sources */,
+				82D59BF32BC8177E93DA756DD49CEBD5 /* UIResponder+SFExtension.m in Sources */,
+				D3E59337CCC3814C596416D6A216E41F /* UITextField+SFExtension.m in Sources */,
+				A30308B132F2F91F300F9353F5AD26E2 /* UIView+SFExtension.m in Sources */,
+				C600A9C8E55862117A51166FFBBC2E43 /* UIView+SFFrame.m in Sources */,
+				9BB64457474A019F0AA59A4A86E13B6B /* UIView+SFGesture.m in Sources */,
+				0EE3B04541106540ED9114D47A0D04A6 /* UIWebView+SFExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
